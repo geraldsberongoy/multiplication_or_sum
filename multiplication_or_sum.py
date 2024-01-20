@@ -26,13 +26,25 @@
 # Code
 
 # Given 1:
-number_1 = 40
+number_1 = 20
 number_2 = 30
 
-result = number_1*number_2
+product = number_1 * number_2
 
-if result <= 1000:
-    print("The result is: ", result)
+if product <= 1000:
+    print("The result is: ", product)
 else:
-    result = number_1 + number_2
-    print("The result is: ", result)
+    sum = number_1 + number_2
+    print("The result is: ", sum)
+
+# Given 2:
+number_3 = 40
+number_4 = 30
+
+product = number_3 * number_4
+
+if product <= 1000:
+    print("The result is: ", product)
+else:
+    sum = number_3 + number_4
+    print("The result is: ", sum)
