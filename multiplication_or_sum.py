@@ -22,3 +22,14 @@
 #      print result
 # 4. else statement
 #      print add 2 number
+
+# Code
+
+# Given 1:
+number_1 = 20
+number_2 = 30
+
+result = number_1*number_2
+
+if result <= 1000:
+    print("The result is: ", result)
