@@ -26,10 +26,13 @@
 # Code
 
 # Given 1:
-number_1 = 20
+number_1 = 40
 number_2 = 30
 
 result = number_1*number_2
 
 if result <= 1000:
+    print("The result is: ", result)
+else:
+    result = number_1 + number_2
     print("The result is: ", result)
