@@ -14,3 +14,11 @@
 
 # Expected output:
 # The result is 70
+
+# pseudocode
+# 1. assigning variables for givens
+# 2. multiply 2 numbers
+# 3. if statement result <= 1000
+#      print result
+# 4. else statement
+#      print add 2 number
