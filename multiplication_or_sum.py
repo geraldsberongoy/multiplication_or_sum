@@ -24,27 +24,22 @@
 #      print add 2 number
 
 # Code
+def multiply_or_sum(number1, number2):
+    product = number1 * number2
+    if product <= 1000:
+        print("The result is: ", product)
+    else:
+        sum = number1 + number2
+        print("The result is: ", sum)
 
 # Given 1:
 number_1 = 20
 number_2 = 30
-
-product = number_1 * number_2
-
-if product <= 1000:
-    print("The result is: ", product)
-else:
-    sum = number_1 + number_2
-    print("The result is: ", sum)
+multiply_or_sum(number_1, number_2)
+# Expected output: The result is 600
 
 # Given 2:
 number_3 = 40
 number_4 = 30
-
-product = number_3 * number_4
-
-if product <= 1000:
-    print("The result is: ", product)
-else:
-    sum = number_3 + number_4
-    print("The result is: ", sum)
+multiply_or_sum(number_3, number_4)
+#Expected output: The result is 70
